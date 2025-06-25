@@ -14,19 +14,23 @@ export default function BookConsultation() {
         className="max-w-3xl mx-auto text-center px-6"
       >
         <h2 className="text-4xl md:text-5xl font-space-grotesk-bold mb-6 text-zinc-900 dark:text-white">
-          Book Your Consultation
+          Request a Demo
         </h2>
         <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto">
-          Let us help you find the perfect solution. Schedule a free consultation with our expert team and explore how we can accelerate your success.
+          See how Spaceflow AI can help you win more tenders and save costs. Book a personalized demo with our team.
         </p>
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
           viewport={{ once: true }}
+          className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button size="lg" className="text-lg px-8 py-6">
-            Book Now
+            Request a Demo
+          </Button>
+          <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+            Watch a 2-min Explainer Video
           </Button>
         </motion.div>
       </motion.div>

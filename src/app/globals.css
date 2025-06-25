@@ -116,6 +116,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -123,16 +124,47 @@
 
 
 @font-face {
-    font-family: 'space-grotesk-bold';
-    src: url(/fonts/SpaceGrotesk-Bold.ttf)
+  font-family: 'space-grotesk-bold';
+  src: url(/fonts/SpaceGrotesk-Bold.ttf)
 }
 
 @font-face {
-    font-family: 'space-grotesk-regular';
-    src: url(/fonts/SpaceGrotesk-Regular.ttf)
+  font-family: 'space-grotesk-regular';
+  src: url(/fonts/SpaceGrotesk-Regular.ttf)
 }
 
 @theme {
   --font-space-grotesk-bold: "space-grotesk-bold", sans-serif;
-  --font-space-grotesk-regular: "space-grotesk-regular", sans-serif; 
+  --font-space-grotesk-regular: "space-grotesk-regular", sans-serif;
+}
+
+/* Faydaları yukarı kaydıran animasyon */
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-100%);
+  }
+
+  40% {
+    transform: translateY(-200%);
+  }
+
+  60% {
+    transform: translateY(-300%);
+  }
+
+  80% {
+    transform: translateY(-400%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 6s infinite linear;
 }

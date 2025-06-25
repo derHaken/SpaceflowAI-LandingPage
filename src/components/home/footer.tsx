@@ -260,6 +260,22 @@ export default function FooterSection() {
                         </Link>
                     </div>
                 </div>
+                <div className="mt-8 text-center text-sm text-muted-foreground">
+                    <div className="mb-2">
+                        <a href="mailto:emreisik@spaceflow.com.tr" className="underline text-blue-700">emreisik@spaceflow.com.tr</a> |
+                        <a href="mailto:alierenaytekin@spaceflow.com.tr" className="underline text-blue-700">alierenaytekin@spaceflow.com.tr</a> |
+                        <a href="https://www.SpaceFlow.com.tr" target="_blank" rel="noopener noreferrer" className="underline text-blue-700">www.SpaceFlow.com.tr</a>
+                    </div>
+                    <div className="mb-2">
+                        1st POC contract: March-May ($10K). 8 meetings in June with top dental manufacturers. Target: 10 contracts by July 2025. Scaling from 500 to 70,000 prospects in Turkey's $7B market.
+                    </div>
+                    <div className="mb-2">
+                        Market: $6T global, $2.5T Europe/UK, $7B Turkey. Roadmap: $250K revenue by Q4 2025, $500K ARR by Q2 2026, $5M revenue by 2027.
+                    </div>
+                    <div>
+                        Team: Alumni from Cambridge, Harvard, ITU, LSE, TU Dresden. Industry: Pirelli, JAXA. Built together since high school, NASA papers, patents, competitions.
+                    </div>
+                </div>
             </div>
         </footer>
     )

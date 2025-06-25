@@ -37,6 +37,7 @@ export const HeroHeader = () => {
                                 aria-label="home"
                                 className="flex items-center space-x-2">
                                 <Logo />
+                                <span className="font-space-grotesk-bold text-lg tracking-wide ml-2">SPACEFLOW AI</span>
                             </Link>
 
                             <button
